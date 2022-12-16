@@ -28,3 +28,19 @@
         Python functions, http calls, global variables, list/dictionary traversal
 
 *******************************************************************************************************************************************************************                                                      
+                                                                  **Python1.ipynb**
+
+**Jupyter Notebook file:** 
+        Python1.ipynb
+
+**Synopsis:**
+        
+        # A random 9 characters length password generator comprising of alphanumerals and special characters.
+        # Initialize 3 separate lists for alphabets,numbers and special characters.
+        # While loop is used.  Get the random character between a and z using the randint method and passing the start and end as ascii numbers of letters a and z.               Then use the chr() method to convert it back to the letter.
+        # Use the choices () method to get the special character within a predefined set.
+        # Flatten the list for special character list using list comprehension and convert to string type.
+        # Add all the lists and print it by using sample() method so that the generated characters are shuffled.
+     
+**Tools Used:**
+        Python random library, while loop, list comprehension
