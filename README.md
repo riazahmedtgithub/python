@@ -44,3 +44,25 @@
      
 **Tools Used:**
         Python random library, while loop, list comprehension
+
+******************************************************************************************************************************************************************* 
+                                                                  **Python3.ipynb**
+
+**Jupyter Notebook file:** 
+        Python3.ipynb
+
+**Synopsis:**
+        
+        # WebScraping project by using Scrapy spider
+        # Scrape a given website and get the Titles and description
+     
+**Tools Used:**
+        Python scrapy library, string manipulation techniques
+        
+**Input URL Used:**
+        http://info.cern.ch/hypertext/WWW/TheProject.html
+        
+        
+******************************************************************************************************************************************************************* 
+        
+        
