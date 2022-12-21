@@ -11,9 +11,9 @@
 
 **Synopsis:**
         
-        # Use of functions, http calls, global variables, list/dictionary traversal.
         # The following python code makes a http call using requests library to 
           weather url and gets the data in json format.
+        # Use of functions, http calls, global variables, list/dictionary traversal.
         # We are using the .text attribute of response to read in strim
         # It uses the json.loads() to deserialize and convert into dictionary
         # We choose the dataseries key name and take it in a list known as listy. 
