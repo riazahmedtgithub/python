@@ -28,10 +28,10 @@
         Python functions, http calls, global variables, list/dictionary traversal
 
 *******************************************************************************************************************************************************************                                                      
-                                                                  **Python1.ipynb**
+                                                                  **Python2.ipynb**
 
 **Jupyter Notebook file:** 
-        Python1.ipynb
+        Python2.ipynb
 
 **Synopsis:**
         
