@@ -4,6 +4,26 @@
                                                       This repository contains python projects
 ******************************************************************************************************************************************************************* 
 
+
+                                                                **Python1.ipynb**
+
+**Jupyter Notebook file:** 
+        Python1.ipynb
+
+**Synopsis:**
+        
+        # WebScraping more than one website using Scrapy spider and computing logic based on the scrapped value.
+        # Scrape two google cloud websites and get the first row displayed cost https://cloud.google.com/iot/pricing , https://cloud.google.com/storage/pricing
+        # Check which of the cost is greater and display the message accordingly.
+     
+**Tools Used:**
+        Python scrapy library, classes, dictionary, lists, methods, string manipulation techniques
+        
+**Input URL Used:**
+        https://cloud.google.com/iot/pricing & https://cloud.google.com/storage/pricing
+
+******************************************************************************************************************************************************************* 
+
                                                                   **Python.ipynb**
 
 **Jupyter Notebook file:** 
