@@ -1,16 +1,4 @@
-# DSC 510-T302
-# Week 10
-# Programming Assignment Week 10 - Final project
-# Author Riaz Ahmed Tamim Ansari
-# 8/12/2023
 # Weather program - Final project
-
-# Change: 1
-# Change(s) Made: Initial version
-# Date of Change: 8/12/2023
-# Author: Riaz Ahmed Tamim Ansari
-# Change Approved by: Riaz Ahmed Tamim Ansari
-# Date Moved to Production: 8/12/2023
 
 import requests
 
@@ -34,15 +22,15 @@ def metric_finder(metric_option):    #  Function to determine the preference of 
 def location_weather_apicall(*zip_code):    #  Function to find out the latitue and longitude as well as the call to weather API
     try:
         if len(zip_code[0]) == 1:
-            payload = {"zip": zip_code[0][0], "appid" : "d8ceb7cecf02d27211efaeedbda08833"}
+            payload = {"zip": zip_code[0][0], "appid" : "XXXX"}
             response = requests.get("https://api.openweathermap.org/geo/1.0/zip", params = payload)
             response.raise_for_status()
         elif len(zip_code[0]) == 2:
-            payload = {"appid": "d8ceb7cecf02d27211efaeedbda08833"}
+            payload = {"appid": "XXXX"}
             response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={zip_code[0][0]},{zip_code[0][1]},US" , params = payload)
             response.raise_for_status()
         elif len(zip_code[0]) == 3:
-            payload = {"lat": zip_code[0][0], "lon": zip_code[0][1], "appid": "d8ceb7cecf02d27211efaeedbda08833", "units": zip_code[0][2]}
+            payload = {"lat": zip_code[0][0], "lon": zip_code[0][1], "appid": "XXXX", "units": zip_code[0][2]}
             weather_output = requests.get("https://api.openweathermap.org/data/2.5/weather", params=payload)
             display(weather_output.json(),zip_code[0][2])
     except requests.exceptions.HTTPError as error:
