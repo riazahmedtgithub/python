@@ -105,3 +105,42 @@ if __name__ == '__main__':
 
 
 
+
+Program output:
+===============
+
+Would you like to search by zipcode or by city.
+Enter 1 for zipcode.
+Enter 2 for city.
+Enter 3 to quit.
+1
+How would you like the temperature to be displayed.
+Enter 1 to display in Kelvin.
+Enter 2 for Farenheit.
+Enter 3 Celsius.
+2
+Please input the zipcode
+75024
+The weather for the entered zip code 75024 is: 
+
+===============================================
+
+Current temperature is:                 103.77 Fahrenheit
+Temperature feels like:                 109.18 Fahrenheit
+Minimum temperature is:                 99.41 Fahrenheit
+Maximum temperature is:                 107.49 Fahrenheit
+Pressure is:                            1012 hPa
+Humidity is:                            30 %
+General Weather is:                     Scattered clouds
+
+Would you like to search by zipcode or by city.
+Enter 1 for zipcode.
+Enter 2 for city.
+Enter 3 to quit.
+
+
+
+
+
+
+
