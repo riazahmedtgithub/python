@@ -85,4 +85,20 @@
         
 ******************************************************************************************************************************************************************* 
         
+                                                                          **Python4.py**
+
+**Python file:** 
+        Python4.py
+
+**Synopsis:**
+        
+        # Python project where we have an option to get the current weather details by using either zipcode or city/state combination with an option to be displayed either in Kelvin/Celsius/Farenheit
+        # API call is made using requests library 
+     
+**Tools Used:**
+        Python requests library, string manipulation techniques, try/except blocks, dictionary, list, HTTP error checking
+        
+**Input URL Used:**
+        https://api.openweathermap.org/data/2.5/weather
+        
         
